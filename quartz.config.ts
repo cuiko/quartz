@@ -11,7 +11,7 @@ const config: QuartzConfig = {
     pageTitle: "cuiko's blog",
     enableSPA: true,
     enablePopovers: true,
-    analytics: null,
+    analytics: { provider: "google", tagId: "G-QJ15VD0VDC" },
     locale: "zh-CN",
     baseUrl: "cuiko.github.io/quartz",
     ignorePatterns: ["private", "templates", ".obsidian"],
